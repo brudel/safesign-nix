@@ -9,7 +9,7 @@
   gdbm,
   glib,
   gtk3,
-  wxGTK32,
+  wxwidgets_3_2,
 }:
 
 stdenv.mkDerivation {
@@ -30,7 +30,7 @@ stdenv.mkDerivation {
     gdbm
     glib
     gtk3
-    wxGTK32
+    wxwidgets_3_2
     stdenv.cc.cc.lib
   ];
 
